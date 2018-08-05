@@ -7,7 +7,7 @@ h1{
     vertical-align: middle;
     font-size: 32px;
     margin: 20px 0px;
-    background-color: #F1C40F
+    background-color: #FF69B4
 }
 
 ul{
@@ -27,7 +27,7 @@ li{
 }
 
 li:hover{
-    backgroud-color: #E1F5FE;
+    background-color: #E1F5FE;
     border-radius: 3px;
 }
 
@@ -35,5 +35,20 @@ a{
     text-decoration: none;
     color: #424242;
     vertical-align: middle;
+}
+
+input[type="text"], input[type="number"]{
+    font-size: 20px;
+    background-color: #FFF;
+    outline: none;
+    border-style : none;
+    padding: 5px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px #90A4AE;
+}
+
+div{
+    width: 60%;
+    margin: 20px auto 0px auto;
 }
     

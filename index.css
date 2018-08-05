@@ -1,15 +1,13 @@
-html{
-    font-family:sans-serif;
+body {
+    color: #424242; 
+    background-color: #38b6e0;
+    font-family: sans-serif;
 }
-
 h1{
-    display: inline;
-    vertical-align: middle;
-    font-size: 32px;
-    margin: 20px 0px;
-    background-color: #FF69B4
+    color: #0e02ed;
+    text-align: center;
+    margin-top: 20px;
 }
-
 ul{
     list-style: none;
     font-size: 20px;

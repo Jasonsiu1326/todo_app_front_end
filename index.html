@@ -1,5 +1,7 @@
 <html>
     <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
         <title>My Todo App</title>
         <link rel="stylesheet" href="index.css">
     </head>
@@ -23,9 +25,9 @@
                 <span class="pomodoro-estimate"> 1 pomodoro </span>
             </li>
         <ul>
-        <div>
-            <input type="text" placeholder="add a new todo...">
-            <input type="number"placeholder="pomodoro estimte...">
+        <div id="new-todo-block">
+            <input id="new-todo-description" type="text" placeholder="add a new todo...">
+            <input id="new-pomodoro-estimate" type="number"placeholder="pomodoro estimte...">
             <input id="add-new-todo-button" type="submit" value="add todo">
         </div>
     </body>

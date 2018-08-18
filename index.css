@@ -76,3 +76,6 @@ div{
 #add-new-todo-button:active{
     box-shadow: 1px 1px 1px #90A4AE;
 }
+.completed-todo{
+ text-decoration: line-through;
+}
